@@ -1,0 +1,12 @@
+﻿using Domain.Entities;
+
+namespace Application.Interfaces;
+
+public interface IAuthRepository
+{
+    Task<User?> GetUserByEmailAsync(string email);
+
+    Task AddUserAsync(User user);
+
+   
+}

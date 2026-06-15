@@ -1,0 +1,16 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="docker-compose.yml" />
+  </Folder>
+  <Folder Name="/SRC/">
+    <Project Path="D:/projects/Csharp/ProjectAssignment/API/API.csproj" />
+    <Project Path="D:/projects/Csharp/ProjectAssignment/Application/Application.csproj" Id="37a557be-1cac-44bd-b729-83466ad91d56" />
+    <Project Path="D:/projects/Csharp/ProjectAssignment/Domain/Domain.csproj" Id="6f02f613-ffba-47ed-97b0-5f3fa2f20ae8" />
+    <Project Path="D:/projects/Csharp/ProjectAssignment/Infrastructure/Infrastructure.csproj" Id="7581cc9d-c3f9-4efe-b806-19503b0dbe55" />
+  </Folder>
+  <Folder Name="/Tests/">
+    <Project Path="D:/projects/Csharp/ProjectAssignment/API.Test/API.Test.csproj" Id="afce7b4f-098d-44b7-a26b-105af0ba4b17" />
+    <Project Path="D:/projects/Csharp/ProjectAssignment/Application.Test/Application.Test.csproj" Id="e9685b59-2624-48cb-bbc6-566340781b9f" />
+    <Project Path="D:/projects/Csharp/ProjectAssignment/Infrastructure.Test/Infrastructure.Test.csproj" Id="7a9a9286-8c92-43ac-ad22-86342468a14e" />
+  </Folder>
+</Solution>
