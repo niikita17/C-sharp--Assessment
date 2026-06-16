@@ -11,18 +11,14 @@ A production-ready RESTful API built using .NET 8 and ASP.NET Core Web API follo
 * Entity Framework Core
 * SQL Server
 * JWT Authentication
-* Refresh Token Support
 * API Versioning
 * Repository Pattern
 * Unit Of Work Pattern
 * FluentValidation
 * Global Exception Handling Middleware
 * Swagger/OpenAPI Documentation
-* Structured Logging
 * Docker Support
-* xUnit Unit Testing
-* Pagination Support
-* Role-Based Authorization
+
 
 ---
 
@@ -59,8 +55,7 @@ Solution
 | FluentValidation      | Latest  |
 | Swagger               | Latest  |
 | Docker                | Latest  |
-| xUnit                 | Latest  |
-| Moq                   | Latest  |
+
 
 ---
 
@@ -157,13 +152,6 @@ dotnet ef database update
 dotnet run
 ```
 
-Swagger:
-
-```text
-https://localhost:5001/swagger
-```
-
----
 
 ## Docker
 
@@ -181,29 +169,13 @@ docker-compose up -d
 
 ---
 
-## Testing
 
-Run Unit Tests
 
-```bash
-dotnet test
-```
-
-Coverage Includes:
-
-* Service Layer
-* Repository Layer
-* Authentication Logic
-* Controller Testing
-* Integration Testing
-
----
 
 ## Security
 
 * JWT Authentication
-* Refresh Token Rotation
-* Role-Based Authorization
+
 * FluentValidation
 * Global Exception Handling
 * HTTPS Enforcement
